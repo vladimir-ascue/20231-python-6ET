@@ -1,7 +1,7 @@
 # LISTAS
 lista1 = ["Vladimir", "Ascue", "Lovón"]
 lista2 = [1, 2, 3]
-lista3 = ["Vladimir", 2, lista2];
+lista3 = ["Vladimir Ilich", 2, lista2];
 
 print(lista1)
 print()

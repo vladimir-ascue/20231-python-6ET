@@ -6,7 +6,7 @@ while True:
     menu()
     opcion = int(input("  Ingrese a Opcion >> "))
     if opcion == 0:
-        print("bye:  ")
+        print("Adios:  ")
         break
     if opcion == 1:
         print(f" Lista Uno: {lista1} \n Lista Dos: {lista2}")

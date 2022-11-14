@@ -11,7 +11,7 @@ def leerListas():
     lista1 = []
     lista2 = []
     response = [[],[]]
-    for x in range(5):
+    for x in range(6):
         lista1.append(int(input("Ingrese datos para la lista Uno: ")))
     print("*"*50)
     for y in range(4):
