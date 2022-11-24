@@ -19,7 +19,7 @@ from PrimeraWebPython.views import saludo, saludo2
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',login),
+    path('',login),  # implementar la vista y template login
     path('saludo/', saludo),
     path('saludo2/',saludo2),
 ]
