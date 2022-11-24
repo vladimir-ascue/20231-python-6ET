@@ -1,0 +1,15 @@
+# a- () => Tuplas
+# b- [] => Listas : De todo en cualquier orden y con duplicados
+# c- {} => Diccionarios : Funciona con el modelo CLAVE: VALOR
+
+diccionario = {"nombre":"Pepito","docIdentidad":"6374859","correo":"denis@gmail.com"}
+
+print(diccionario)
+
+print(diccionario["nombre"])
+
+producto = {"nombre":"Monitor",
+            "tipo":"Perifericos de computo",
+            "modelo":"32JKF",
+            "marca":"LG",
+            "tamaño":"32'"}

@@ -20,7 +20,7 @@ def menu():
 opcion = 1
 flag = True
 
- nombreAlumno1, nombreAlumno2 = "", ""
+nombreAlumno1, nombreAlumno2 = "", ""
 nota1A1, nota2A1,nota3A1,nota1A2,nota2A2,nota3A2 = 0, 0, 0, 0, 0, 0
 promedioA1, promedioA2 = 0, 0
 
