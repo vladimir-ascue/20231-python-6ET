@@ -15,9 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from PrimeraWebPython.views import saludo
+from PrimeraWebPython.views import saludo, saludo2
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('',login),
     path('saludo/', saludo),
+    path('saludo2/',saludo2),
 ]
