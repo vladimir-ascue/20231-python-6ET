@@ -1,15 +1,17 @@
 from django.http import HttpResponse
 
+
 def saludo(request):
-  contenidoHTML = '''
+    contenido_html = '''
                       <h1 style="border: 1px solid Blue; color: Blue; border-raidus: 15px;">
                         Hola Django
                       </h1>
                   '''
-  return HttpResponse(contenidoHTML)
+    return HttpResponse(contenido_html)
+
 
 def saludo2(request):
-  contenidoHTTP = '''
+    contenido_html = '''
                       <table style="border: 1px solid black;">
                         <tr>
                           <td>
@@ -37,8 +39,17 @@ def saludo2(request):
                         </tr>
                       </table>
                   '''
-  return HttpResponse(contenidoHTTP)
+    return HttpResponse(contenido_html)
 
-  def suma2numeros(num1, num2):
-    suma = int(num1) + int(num2)
-    return HttpResponse("La suma es: ", suma)
+
+def suma2numeros(response, num1, num2):
+    suma = "la suma es: ", int(num1) + int(num2)
+    return HttpResponse(suma)
+
+
+def tablaN(response, num):
+    contenido = ""
+    for n in range(int(num)):
+        prodActual = n * int(num)
+        contenido = contenido + f'- {n} * {num} = {prodActual} <br>'
+    return HttpResponse(contenido)
