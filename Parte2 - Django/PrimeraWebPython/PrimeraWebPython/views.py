@@ -39,4 +39,6 @@ def saludo2(request):
                   '''
   return HttpResponse(contenidoHTTP)
 
-  
+  def suma2numeros(num1, num2):
+    suma = int(num1) + int(num2)
+    return HttpResponse("La suma es: ", suma)
