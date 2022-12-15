@@ -1,6 +1,5 @@
 from django.http import HttpResponse
 
-
 def saludo(request):
     contenido_html = '''
                       <h1 style="border: 1px solid Blue; color: Blue; border-raidus: 15px;">
@@ -45,7 +44,6 @@ def saludo2(request):
 def suma2numeros(response, num1, num2):
     suma = "la suma es: ", int(num1) + int(num2)
     return HttpResponse(suma)
-
 
 def tablaN(response, num):
     contenido = ""
