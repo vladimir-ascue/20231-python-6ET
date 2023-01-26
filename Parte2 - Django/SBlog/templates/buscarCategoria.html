@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Buscar categoria</title>
+</head>
+<body>
+    <form method="POST">
+       {% csrf_token %}
+        <label for="categoriaBuscada">Nombre</label>
+        <input type="text" name="categoriaBuscada"><br>
+        <input type="submit" value="Buscar">
+    </form>
+    {% if categoriaEncontrada %}
+        <p> <strong> id:
+            {{ categoriaEncontrada.id }}
+        </strong><br>
+            Nombre:{{ categoriaEncontrada.nombre }} <br>
+            Descricpion:{{ categoriaEncontrada.descripcion }} <br>
+            Creado:{{ categoriaEncontrada.creado }} <br>
+            Modificado:{{ categoriaEncontrada.modificado }} <br>
+            Estado:{{ categoriaEncontrada.estado }}
+            </p>
+    {% endif %}
+</body>
+</html>

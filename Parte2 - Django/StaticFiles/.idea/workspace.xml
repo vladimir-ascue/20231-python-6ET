@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e6b3843c-fa48-4722-a251-38149e749189" name="Changes" comment="Actualizacion de StaticFiles">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/migrations/0003_remove_usuario_id_alter_usuario_num_documento_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/identifier.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/estilos/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DjangoWebApp/DjangoWebApp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DjangoWebApp/DjangoWebApp/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DjangoWebApp/plantillas/formulario.html" beforeDir="false" afterPath="$PROJECT_DIR$/../DjangoWebApp/plantillas/formulario.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StaticFiles/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/StaticFiles/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StaticFiles/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/StaticFiles/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/nosotros.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/nosotros.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/StaticFiles/settings.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/StaticFiles/views.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/blog/models.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/static/estilos/style.css" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/templates/home.html" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/templates/nosotros.html" root0="SKIP_INSPECTION" root1="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2InMFYdEVOSh0srZZPewmlmuG2r" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/OneDrive/Documentos/Trabajo/Clientes/khipu/Python/2023-1 6ET/20231-python-6ET/Parte2 - Django/StaticFiles&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;,
+      &quot;sqlite&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OneDrive\Documentos\Trabajo\Clientes\khipu\Python\2023-1 6ET\20231-python-6ET\Parte2 - Django\StaticFiles\static\imagenes" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="StaticFiles" type="Python.DjangoServer" factoryName="Django server">
+      <module name="StaticFiles" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="StaticFiles.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e6b3843c-fa48-4722-a251-38149e749189" name="Changes" comment="" />
+      <created>1670812790213</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670812790213</updated>
+      <workItem from="1670812791782" duration="7393000" />
+      <workItem from="1670820518320" duration="61000" />
+      <workItem from="1670858651491" duration="186000" />
+      <workItem from="1671127173640" duration="795000" />
+      <workItem from="1671137614539" duration="4016000" />
+      <workItem from="1671735738755" duration="1065000" />
+      <workItem from="1671744508158" duration="418000" />
+      <workItem from="1671745489880" duration="73000" />
+      <workItem from="1672686116259" duration="169000" />
+      <workItem from="1672686292801" duration="3668000" />
+      <workItem from="1672885778174" duration="795000" />
+      <workItem from="1672945479522" duration="6680000" />
+      <workItem from="1673481286991" duration="3668000" />
+      <workItem from="1673546825586" duration="12573000" />
+      <workItem from="1673621348399" duration="71000" />
+      <workItem from="1673656933822" duration="332000" />
+      <workItem from="1673915246316" duration="662000" />
+      <workItem from="1674154619484" duration="3962000" />
+      <workItem from="1674179196120" duration="52000" />
+      <workItem from="1674325490630" duration="61000" />
+    </task>
+    <task id="LOCAL-00001" summary="Actualizacion de StaticFiles">
+      <created>1671139025393</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671139025393</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Actualizacion de StaticFiles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actualizacion de StaticFiles" />
+  </component>
+</project>
