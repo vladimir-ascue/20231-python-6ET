@@ -3,7 +3,10 @@ from django.http import HttpResponse
 def saludo(request):
     contenido_html = '''
                       <h1 style="border: 1px solid Blue; color: Blue; border-raidus: 15px;">
-                        Hola Django
+                        <form action="/tabla/" method="get">
+                            Numero: <input type="text" name="num">
+                            <input type="submit">
+                        </form>
                       </h1>
                   '''
     return HttpResponse(contenido_html)

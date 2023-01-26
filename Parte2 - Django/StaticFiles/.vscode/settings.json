@@ -1,0 +1,11 @@
+{
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "driver": "SQLite",
+      "name": "blog",
+      "database": "${workspaceFolder:StaticFiles}/db.sqlite3"
+    }
+  ],
+  "sqltools.useNodeRuntime": true
+}
