@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Actualizar Categoria</title>
+</head>
+<body>
+    <form method="POST">
+       {% csrf_token %}
+        <label for="nombreActual">Nombre actual</label>
+        <input type="text" name="nombreActual><br>
+
+        <label for="nombreNuevo">Nombre nuevo</label>
+        <input type="text" name="nombreNuevo"><br>
+
+        <input type="submit" value="Actualizar">
+    </form>
+
+</body>
+</html>
