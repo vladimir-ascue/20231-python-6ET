@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,4 +24,31 @@
         <p>a las {{ hora }}</p>
     {% endif %}
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Crear categoria</title>
+</head>
+<body>
+    <form method="POST">
+        {% csrf_token %} <!-- Crear un token de seguridad - Evita el Cross Site Scripting (CSS) -->
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre"><br>
+
+        <label for="descripcion">Descripcion</label>
+        <input type="text" name="descripcion"><br>
+
+        <label for="estado">Estado</label>
+        <input type="text" name="estado"><br>
+
+        <input type="submit" value="enviar">
+    </form>
+    {% if nombre %}
+        <p>Categoría {{ nombre }}, registrada correctamente</p>
+        <p>a las {{ hora }}</p>
+    {% endif %}
+</body>
+>>>>>>> origin/main
 </html>
